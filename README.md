@@ -1,21 +1,20 @@
-＃ 自述文件
- 如果你不知道怎么使用这个工具，请看[ 这个视频 ]（https://www.youtube.com/watch?v=1Pm2gzSDaX0）。
+## 佳蓝即时通讯系统开源版
+#### 论坛讨论地址：http://www.onez.cn/onez/YmJzfC9qaWUvZGV0YWlsLnBocA==/mod/bbs/tid/12089.html
 
- 祝大家好运！
+![adduser](https://github.com/onezcn/im/blob/master/screenshot/adduser.jpg)
+![creategroup](https://github.com/onezcn/im/blob/master/screenshot/creategroup.jpg)
+![finduser](https://github.com/onezcn/im/blob/master/screenshot/finduser.jpg)
+![groupdialog](https://github.com/onezcn/im/blob/master/screenshot/groupdialog.jpg)
+![setting](https://github.com/onezcn/im/blob/master/screenshot/setting.jpg)
+![system](https://github.com/onezcn/im/blob/master/screenshot/system.jpg)
+![usercard](https://github.com/onezcn/im/blob/master/screenshot/usercard.jpg)
+![userinfo](https://github.com/onezcn/im/blob/master/screenshot/userinfo.jpg)
 
- ＃  SSR节点列表生成器
- >适应ios版shadowrocket，PC或Mac版小飞机，
+## 1.0.0.20200501-alpha
+* 首次发布
 
- ## 说明
- -  `/ DIST`位节点生成的目录，这个目录是给[ netlify ]（https://app.netlify.com/）应用的
- -  `node.txt`为SS或SSR节点列表文件（支持类的bash脚本注释，举个栗子：`＃`注释）
- -  `app.js`为项目的核心逻辑
-
- 如果你有什么问题，请打开一个问题
-
-
- ## 更新说明
- -支持SS或SSR
-
- ## 问题
- -据反映安卓或Windows客户端可能无法订阅成功，请为添加的每一个例程设置相同的**分组**
+## 1.0.1.20200507-alpha
+* 修复已知错误
+* 简化安装流程
+* 支持php7.0以上
+* 首次运行进行初始化操作：默认系统消息，增加自己为好友。
